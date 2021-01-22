@@ -10,5 +10,6 @@ namespace Kursovoi_Parsing
     {
         public string Kod_brenda { get; set; }
         public string BrendName { get; set; }
+
     }
 }

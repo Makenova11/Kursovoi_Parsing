@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7241b27adad34abeb2972dac4ad6bf10" Name="Diagram1" ZoomLevel="79">
+        <EntityTypeShape EntityType="ShopParserModel.sysdiagrams" Width="1.5" PointX="16.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopParserModel.Смартфоны" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopParserModel.Бренды" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ShopParserModel.Планшеты" Width="1.5" PointX="3.5" PointY="4.125" />
+        <AssociationConnector Association="ShopParserModel.FK_Планшеты_Бренды" />
+        <AssociationConnector Association="ShopParserModel.FK_Смартфоны_Бренды" ManuallyRouted="true" >
+          <ConnectorPoint PointX="2.25" PointY="4.1562499999565379" />
+          <ConnectorPoint PointX="2.4459375" PointY="4.1562499999565379" />
+          <ConnectorPoint PointX="2.4459375" PointY="4.5062499999565375" />
+          <ConnectorPoint PointX="2.84375" PointY="4.5062499999565375" />
+          <ConnectorPoint PointX="2.84375" PointY="2.922587890625" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
